@@ -39,6 +39,7 @@ class Array
 # A large array with random generated numbers, probably 10,000 elements
 
 	# Problem 3
+	# An implementation for flatten - recursive
 	def flatten
 		arr = []
 		for element in self
