@@ -1,5 +1,8 @@
 class Array
 	# Problem 1
+	# Write a method in the language of your choice* which takes an array of integers 
+	# and returns this special average. Assume the input array can contain any number of elements. 
+	# Your algorithm needs to be as fast as possible when run.
 	def calculate_special_average
 		max = self[0]
 		min = self[0]
@@ -31,6 +34,10 @@ class Array
 		end
 	end
 # Problem 2
+# Assume you are going to write unit tests for the function you just wrote. 
+# Without writing actual code, just list out the various test cases 
+# you would want to cover in your unit tests.
+
 # Test cases:
 # A normal array: [1, 3, 5, 7, 9]
 # An empty array: []
@@ -39,6 +46,10 @@ class Array
 # A large array with random generated numbers, probably 10,000 elements
 
 	# Problem 3
+	# Write a method in the language of your choice* which 
+	# takes a multi­dimensional array and flattens it to a 1­dimensional array. Example (in Ruby):
+	#[1, 2, 3, [10, [11, 38], 3, 5]].flatten => [1, 2, 3, 10, 11, 38, 3, 5]
+	
 	# An implementation for flatten - recursive
 	def flatten
 		arr = []
